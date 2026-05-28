@@ -1,2 +1,1 @@
-# all-web-administrador
-Sistema Web de Seguridad
+gnt-administrador

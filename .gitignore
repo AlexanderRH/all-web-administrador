@@ -1,0 +1,11 @@
+_notes/
+css/_notes/
+images/_notes/
+include/_notes/
+javascript/_notes/
+*.tmp
+*.LCK
+*.log
+*.config
+sftp-config.json
+.remote-sync.json

@@ -1,0 +1,171 @@
+/* TABLA GENERAL */
+.gr_table01
+{
+	border:1px #C2D5DC solid;
+	border-collapse:collapse;
+	font-family:Arial;
+	font-size:11px;
+	table-layout:fixed;
+}
+
+/* CABECERA */
+.gr_head01
+{
+	padding:0px;
+	font-weight:bold;
+	color:#055A78;
+	height:24px;
+	border-left:1px #FFFFFF solid;
+	border-right:1px #93AFBA solid;
+	border-bottom:1px #93AFBA solid;
+	text-align:left;
+}
+
+/* FILAS */
+.gr_row01
+{
+/*			background-image:url(images/fondo_head_grilla2.jpg);*/
+	background:#D0E0E8;
+	background-position:left;
+	background-repeat:repeat-x;
+}
+
+.gr_row02
+{
+	background:#FFFFFF;
+}
+.gr_row02:hover
+{
+	background:#F3EEAB;
+}
+
+.gr_row03
+{
+	background:#E5F2F8;
+}
+.gr_row03:hover
+{
+	background:#F3EEAB;
+}
+
+/* CUERPO */				
+.gr_body01
+{
+	padding:3px;
+	border-right:1px #EAEAEA solid;
+	cursor:default;
+}
+.gr_body02
+{
+	padding:3px;
+	border-right:1px #EAEAEA solid;
+	background-color:#FFFFFF;
+}
+
+
+/* CELDA HEAD */
+.gr_chead
+{
+	border-collapse:collapse;
+	border:1px;
+	border-top:1px #FFFFFF solid;
+	border-left:1px #FFFFFF solid;
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+	table-layout:fixed;
+}
+
+/* FLECHAS DE ORDENAMIENTO */
+.gr_caption01
+{
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#055A78;
+	padding-left:4px;
+	cursor:pointer;
+}
+.gr_arrow01
+{
+	width:12px;
+	background-position:center;
+	background-repeat:no-repeat;
+	/*background-image:url(images/flecha_down_header.png);*/
+	/*display:none;*/
+	cursor:pointer;
+}
+.gr_resize01
+{
+	width:1px;
+	/*background-color:#93AFBA;*/
+	cursor:w-resize;
+}
+
+
+
+
+
+
+
+.gr_hd1
+{
+	position:relative;
+	border-left:1px #FFFFFF solid;
+	border-top:1px #FFFFFF solid;
+	width:100%;
+	height:22px;
+	overflow:hidden;
+	line-height:22px;
+}
+.gr_hd2
+{
+	border:0px;
+	width:3px;
+	height:22px;
+	float:right;
+	cursor:w-resize;
+	z-index:0;
+	/*border:1px #0066FF solid;*/
+}
+.gr_hd3
+{
+	width:13px;
+	height:22px;
+	float:right;
+	/*cursor:w-resize;*/
+	/*background-image:url(images/flecha_up_header.png);*/
+	background-position:right;
+	background-repeat:no-repeat;
+	/*border:1px #0066FF solid;*/
+}
+.gr_hd4
+{
+	position:absolute;
+	float:left;
+	width:136px;
+	height:22px;
+	overflow:hidden;
+	cursor:pointer;
+	padding-left:3px;
+	padding-top:1px;
+	/*border:1px #0066FF solid;*/
+}
+.gr_hd5
+{
+	position:absolute;
+	border:0px;
+	width:100;
+	height:92%;
+	/*padding-left:6px;*/
+}
+
+.gr_tbody01
+{
+	padding:4px;
+	border-right:1px #EAEAEA solid;
+	cursor:default;
+	font-family:arial;
+	font-size:11px;
+}

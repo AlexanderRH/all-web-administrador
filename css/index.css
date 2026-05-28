@@ -1,0 +1,15 @@
+#divcentral
+{
+	position:absolute;
+	padding:0px;
+	border-collapse:collapse;
+	border: none;
+
+	top: 0px;
+	left: 50%;
+	margin-left: -475px;
+	
+	width: 950px;
+	height: 100%;
+	background-color: white;
+}
